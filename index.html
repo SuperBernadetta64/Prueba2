@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKC Games</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">   <!--href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header"> 
+        <a href="inicio.html">
+            <img class="header__logo" src="img/logoakc2.png" alt="Logotipo"> 
+        </a>
+    </header>
+    
+
+    <nav class="navegacion">
+        <a  class="navegacion__enlace" href="inicio.html">Inicio</a>
+        <a  class="navegacion__enlace navegacion__enlace--activo" href="index.html">Catálogo</a>
+        <a  class="navegacion__enlace" href="nosotros.html">Quienes Somos</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Videojuegos</h1>
+
+        <div class="grid">
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/5.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Garfield Kart - Nintendo Switch</p>
+                        <p class="producto__precio">$1200</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+            <div class="producto">
+                <a href="DQXI.html">
+                    <img class="producto__imagen" src="img/6.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Dragon Quest XI - Playstation 4</p>
+                        <p class="producto__precio">$980</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+            <div class="producto">
+                <a href="Doom.html">
+                    <img class="producto__imagen" src="img/7.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">DOOM Ramon - XBOX ONE </p>
+                        <p class="producto__precio">$789</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/1.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Pokémon Shield - Nintendo Switch</p>
+                        <p class="producto__precio">$1,299</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/2.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Minecraft - Xbox</p>
+                        <p class="producto__precio">$700</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/3.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Spider-Man: Miles Morales - Playstation 5</p>
+                        <p class="producto__precio">$1,169</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/4.jpg" alt="imagen juego">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Fortnite The Last Laugh - Nintendo Switch</p>
+                        <p class="producto__precio">$699</p>
+                    </div>
+                </a>
+            </div> <!--fin de la clase producto-->
+
+
+            <div class="grafico grafico--juego"></div>
+        
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form class="contactanos" action="#" method="POST">
+                <legend>Contactános llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono</label>
+
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Correo</label>
+
+                        <input type="mail" name="correo" placeholder="Mail">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Mensaje:</label>
+
+                        <textarea></textarea>
+                    </div>
+                </div><!--.contenedor-campos-->
+                <div class="enviar">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+
+
+
+
+        <p class="footer__texto">AKC Games - Torréon Coahuila Mexico, Calle Vencejos #125 col. Jacarandas
+            - akcgames00@gmail.com - 8711561070.</p>
+    </footer>
+
+</body>
+</html>
